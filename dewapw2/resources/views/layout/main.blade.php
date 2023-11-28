@@ -28,12 +28,20 @@
                     <p>Navigation</p>
                     <span></span>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('fakulitas') }}">
+                    <a class="nav-link" href="{{ url('home') }}">
                         <i class="mdi mdi-bank menu-icon"></i>
+                        <span class="menu-title">Dashboard</span>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('fakulitas') }}">
+                        <i class="mdi mdi-home-modern menu-icon"></i>
                         <span class="menu-title">Fakultas</span>
 
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('prodi') }}">
                         <i class="mdi mdi-home-modern menu-icon"></i>
@@ -41,6 +49,7 @@
 
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('mahasiswa') }}">
                         <i class="mdi mdi-account-circle menu-icon"></i>
